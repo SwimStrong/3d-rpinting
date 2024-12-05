@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JH 3d</title>
+    <style>
+        /* Welcome Section Styling */
+        #welcomeSection {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(45deg, #1F1F1F, #4C6A92);
+            color: white;
+            animation: fadeInUp 1s ease-in-out;
+            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.4);
+            background-color: #333;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Styling for the Welcome Title */
+        #welcomeTitle {
+            font-size: 48px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+            margin: 0;
+        }
+
+        /* Styling for the Intro Text */
+        #introText {
+            font-size: 22px;
+            margin-top: 15px;
+            font-style: italic;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.5;
+            opacity: 0.8;
+        }
+
+        /* Your other existing styles go here */
+    </style>
+</head>
+<body>
+    <!-- Welcome Section -->
+    <div id="welcomeSection">
+        <h1 id="welcomeTitle">Welcome 3d printing!</h1>
+        <p id="introText">your jouurny to joy begins here.</p>
+    </div>
+
+    <!-- Other content of your website goes here -->
+<head>
+  <style>
+    #chatWithUsBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      padding: 12px 25px;
+      font-size: 18px;
+      cursor: pointer;
+      background: linear-gradient(45deg, #6a11cb, #2575fc);
+      color: white;
+      border: none;
+      border-radius: 25px;
+      animation: pulse 2s infinite;
+      font-weight: bold;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  @keyframes pulse {
+      0%, 100% {
+          transform: scale(1);
+      }
+      50% {
+          transform: scale(1.1);
+      }
+  }
+
+  #chatWithUsBtn:hover {
+      transform: scale(1.15);
+      box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Modal */
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Printing Products</title>
+    <style>
+      /* Global Styles */
+      body {
+        margin: 0;
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to bottom, #0f0f0f, #2c2c2c);
+        color: white;
+        padding: 20px;
+      }
+  
+      h1 {
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 30px;
+        color: #ff5722;
+        text-shadow: 0 3px 6px rgba(0, 0, 0, 0.5);
+      }
+  
+      .product-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 0 10px;
+      }
+  
+      .product-card {
+        background: #1e1e1e;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+      }
+  
+      .product-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.7);
+      }
+  
+      .product-image {
+        width: 100%;
+        height: 200px;
+        object-fit: contain;
+      }
+  
+      .product-info {
+        padding: 15px;
+      }
+  
+      .product-name {
+        font-size: 1.3rem;
+        margin: 10px 0;
+        color: #ffab40;
+        text-transform: uppercase;
+      }
+  
+      .product-price {
+        font-size: 1rem;
+        color: #76ff03;
+        margin-bottom: 10px;
+      }
+  
+      .color-picker {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 10px;
+      }
+  
+      .color {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        cursor: pointer;
+        border: 2px solid transparent;
+        transition: transform 0.3s ease, border 0.3s ease;
+      }
+  
+      .color:hover {
+        transform: scale(1.2);
+        border-color: white;
+      }
+  
+      .details {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #cfcfcf;
+      }
+  
+      .details a {
+        color: #ffab40;
+        text-decoration: none;
+      }
+  
+      .details a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Our 3D Printing Products</h1>
+  
+    <div class="product-grid">
+      <!-- Product Card -->
+      <div class="product-card" id="product1">
+        <img class="product-image" src="redd.jpg" alt="boomerang" id="image1">
+        <div class="product-info">
+          <h2 class="product-name"> boomerang</h2>
+          <p class="product-price" id="price1">£1</p>
+          <div class="color-picker">
+            <!-- Color Options -->
+            <div class="color" style="background: red;" onclick="changeColor('image1', 'red', 'redd.jpg', 1)"></div>
+            <div class="color" style="background: blue;" onclick="changeColor('image1', 'blue', 'blue.jpg', 1)"></div>
+            <div class="color" style="background: black;" onclick="changeColor('image1', 'black', 'BlackB.jpg', 1.50)"></div>
+            <div class="color" style="background: orange;" onclick="changeColor('image1', 'orange', 'Orange.png', 1)"></div>
+            <div class="color" style="background: rgb(230, 230, 38);" onclick="changeColor('image1', 'lightyellow', 'yellow.jpg', 1)"></div>
+            <div class="color" style="background: #333;" onclick="changeColor('image1', 'carbon fiber', 'carbonb.jpg', 2)">
+              <img src="carbon.png" alt="Carbon Fiber" style="width: 100%; border-radius: 50%;">
+            </div>
+          </div>
+          <div class="details">
+            <a href="#" onclick="viewDetails('Product 1', 'placeholder1.jpg', 'A premium 3D-printed product with multiple color and material options, including carbon fiber!')">View Details</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Add More Products Here -->
+    </div>
+  
+    <script>
+      // Function to change product color and price
+      function changeColor(imageId, colorName, imagePath, price) {
+        const productImage = document.getElementById(imageId);
+        const priceTag = document.getElementById(imageId.replace('image', 'price'));
+  
+        // Update product image
+        productImage.src = imagePath;
+  
+        // Update price
+        priceTag.textContent = `$${price.toFixed(2)}`;
+      }
+  
+      // Function to view product details
+      function viewDetails(name, image, description) {
+        alert(`${name}\n\n${description}\n\nImage: ${image}`);
+      }
+
+
+      
+    </script>
+  </body>
+  </html>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Want These Items</title>
+      <style>
+          body {
+              background-color: #111;
+              font-family: 'Arial', sans-serif;
+              margin: 0;
+              padding: 0;
+              color: white;
+              overflow-x: hidden;
+              text-align: center;
+          }
+  
+          /* Cool Header */
+          .cool-header {
+              margin-top: 100px;
+              text-transform: uppercase;
+              letter-spacing: 5px;
+              font-size: 4em;
+              color: #fff;
+              animation: glow 1.5s infinite alternate, fadeIn 1s ease-in-out;
+          }
+  
+          /* Glowing Header Effect */
+          @keyframes glow {
+              0% {
+                  text-shadow: 0 0 15px #ff00ff, 0 0 30px #ff00ff, 0 0 60px #ff00ff;
+              }
+              100% {
+                  text-shadow: 0 0 25px #00ffff, 0 0 50px #00ffff, 0 0 75px #00ffff;
+              }
+          }
+  
+          /* Fading In the Text */
+          @keyframes fadeIn {
+              0% {
+                  opacity: 0;
+              }
+              100% {
+                  opacity: 1;
+              }
+          }
+  
+          /* Liquid Text Animation */
+          .liquid-text {
+              font-size: 1.5em;
+              display: inline-block;
+              position: relative;
+              color: #ffffff;
+              padding: 20px;
+              animation: liquid 4s infinite;
+          }
+  
+          @keyframes liquid {
+              0% {
+                  background-color: transparent;
+                  clip-path: inset(0 0 0 0);
+              }
+              50% {
+                  background-color: #ff5733;
+                  clip-path: inset(0 100% 0 0);
+              }
+              100% {
+                  background-color: transparent;
+                  clip-path: inset(0 0 0 0);
+              }
+          }
+  
+          /* CTA Buttons */
+          .cta-button-container {
+              position: fixed;
+              bottom: 0;
+              left: 50%;
+              transform: translateX(-50%);
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              z-index: 999;
+              gap: 20px;
+              padding: 20px;
+              width: 100%;
+              box-sizing: border-box;
+              background-color: rgba(0, 0, 0, 0.8); /* Dark background */
+              padding-bottom: 20px; /* Ensure space is left at the bottom */
+          }
+  
+          .cta-button {
+              padding: 15px 30px;
+              font-size: 1.5em;
+              color: white;
+              background-color: #ff5733;
+              border: 2px solid #ff5733;
+              cursor: pointer;
+              transition: all 0.4s ease;
+              border-radius: 30px;
+              width: 250px;
+              box-shadow: 0 0 15px rgba(255, 87, 51, 0.7);
+          }
+  
+          .cta-button:hover {
+              background-color: #ffffff;
+              color: #ff5733;
+              transform: translateY(-7px) rotate(10deg);
+              box-shadow: 0 0 25px rgba(255, 87, 51, 0.7);
+          }
+  
+          .cta-button:active {
+              transform: translateY(4px);
+              box-shadow: none;
+          }
+  
+          .cta-button:focus {
+              outline: none;
+          }
+  
+          /* Button Text Fading Effect */
+          .cta-button span {
+              opacity: 0;
+              animation: fadeInButton 0.5s ease-in-out forwards;
+          }
+  
+          /* Animation to show text inside button */
+          @keyframes fadeInButton {
+              100% {
+                  opacity: 1;
+              }
+          }
+  
+          /* Cool Button Hover */
+          .cta-button-container:hover .cta-button {
+              animation: pulse 1.2s ease-in-out infinite;
+          }
+  
+          @keyframes pulse {
+              0% {
+                  transform: scale(1);
+              }
+              50% {
+                  transform: scale(1.1);
+              }
+              100% {
+                  transform: scale(1);
+              }
+          }
+  
+          /* Add Padding to Bottom Content to Avoid Overlap */
+          .content {
+              padding-bottom: 150px; /* Ensure space at the bottom for fixed buttons */
+          }
+      </style>
+  </head>
+  <body>
+  
+      <!-- Add content above the buttons -->
+      <div class="content">
+          <!-- Cool Header with Glowing Effect -->
+          <h1 class="cool-header">Want These Items?</h1>
+  
+          <!-- Liquid Text Animation -->
+          <div class="liquid-text">Contact us now and let's create your dream product!</div>
+      </div>
+  
+      <!-- CTA Buttons -->
+      <div class="cta-button-container">
+          <button class="cta-button" onclick="location.href='tel:07778976810'"><span>Call Now</span></button>
+          <!-- Updated Email Button using mailto: to open default email app -->
+          <button class="cta-button" onclick="window.location.href='mailto:24lewisj@kingsmac.co.uk?subject=Inquiry%20About%20Your%20Product'"><span>Email Us</span></button>
+      </div>
+  
+  </body>
+  </html>
+  
+  
